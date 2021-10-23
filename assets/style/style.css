@@ -177,6 +177,12 @@ body {
   height: 1095px;
 }
 
+.hero-section-two {
+  background-color: #0b0016;
+  height: 1095px;
+}
+
+
 .li-text {
   font-size: var(--font-16);
   font-weight: 400;
