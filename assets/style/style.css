@@ -175,12 +175,16 @@ body {
   background-repeat: no-repeat;
   background-image: url("../images/hero-section-background.png");
   height: 1095px;
+
 }
 
-.hero-section-two {
+.hero-section-two #home-section {
   background-color: #0b0016;
   height: 1095px;
+  display: flex;
+  justify-content: center;
 }
+
 
 
 .li-text {
