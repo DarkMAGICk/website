@@ -504,6 +504,35 @@ body {
   vertical-align: middle;
 }
 
+.center-image {
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center-image-two {
+  display: flex;
+  justify-content: center;
+}
+
+.how-to-create {
+  background-color: #8b35e2;
+  width: 75%;
+  border-radius: 5px;
+  height: 100%;
+}
+
+li {
+list-style-position: inside;
+}
+.how-to-create-outer {
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+}
 /* CHART CSS  */
 /* #donutchart {
   display: flex;
