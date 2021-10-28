@@ -520,7 +520,7 @@ body {
 
 .how-to-create {
   background-color: #8b35e2;
-  width: 75%;
+  width: 67%;
   border-radius: 5px;
   height: 100%;
 }
@@ -532,6 +532,7 @@ list-style-position: inside;
   width: 100%;
   display: flex;
   justify-content: center;  
+  margin-top:1rem;
 }
 /* CHART CSS  */
 /* #donutchart {
