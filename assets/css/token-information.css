@@ -1,0 +1,207 @@
+/* BACKGOUND-SHADOWS ,IMG  AND COLOR CLASS START */
+
+.token-section-bg-color {
+    background: linear-gradient(160.06deg, rgba(255, 255, 255, 0.051) -4.43%, rgba(255, 255, 255, 0.1) 105.49%);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    backdrop-filter: blur(72px);
+    border-radius: 30px;
+}
+
+.token-supply-box {
+    background: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(100px); */
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+    padding: 24px 10px 30px 22px;
+}
+
+.token-section-bg-img-top {
+    background-size: cover;
+    background-image: url(../img/png/token-section-bg-img.png);
+    height: 32px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.token-section-bg-img-bottom {
+    background-size: cover;
+    background-image: url(../img/png/token-section-bg-img.png);
+    height: 32px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.earn-based-bg-img {
+    background-size: cover;
+    background-image: url(../img/png/image\ 15.png);
+}
+
+.features-section-bg {
+    background-size: cover;
+    /* background-image: url(../img/png/image\ 18.png); */
+}
+
+/* CHARACTER CREATOR SECTION START */
+.character-section {
+    background-size: contain;
+    background-image: url(../img/png/Group\ 178.png);
+    height: 1346px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/* CHARACTER CREATOR SECTION END */
+
+/* BACKGOUND-SHADOWS , IMG AND COLOR CLASS END */
+
+/* MARGIN AND PADDING CLASS START */
+.mt-65 {
+    margin-top: 65px;
+}
+
+.ps-44 {
+    padding-left: 44px;
+}
+
+.ps-43 {
+    padding-bottom: 43px;
+}
+
+.ps-34 {
+    padding-left: 34px !important;
+}
+
+.pt-36 {
+    padding-top: 36px !important;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mb-112 {
+    margin-bottom: 112px;
+}
+
+/* MARGIN AND PADDING CLASS END */
+
+
+/* TABLE CLASS END */
+.table-head-bg {
+    background-color: #0C0C0C;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-top: none !important;
+    border-style: none;
+}
+
+.table-scrollbar::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+/* MTABLE CLASS END */
+
+/* CHARTS CLASSES START */
+.SvgjsG1159 {
+    width: 361px !important;
+    height: 361px !important;
+}
+
+.apexcharts-series.apexcharts-pie-series .apexcharts-donut-slice-0 {
+    fill: #D0DD37 !important;
+}
+
+.apexcharts-series.apexcharts-pie-series .apexcharts-donut-slice-1 {
+    fill: var(--color-Medium-Spring-Green) !important;
+
+}
+
+.apexcharts-series.apexcharts-pie-series .apexcharts-donut-slice-2 {
+    fill: var(--color-Radical-Red) !important;
+
+}
+
+.apexcharts-series.apexcharts-pie-series .apexcharts-donut-slice-3 {
+    fill: var(--color-Dark-Tangerine) !important;
+}
+
+.apexcharts-series.apexcharts-pie-series .apexcharts-donut-slice-4 {
+    fill: #00B2FF !important;
+}
+
+.apexcharts-series.apexcharts-pie-series .apexcharts-donut-slice-5 {
+    fill: var(--color-purple-heart) !important;
+}
+
+
+
+.SvgjsG1007 {
+    width: 361px !important;
+    height: 361px !important;
+}
+
+.apexcharts-legend {
+    display: none !important;
+}
+
+.apexcharts-legend::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+.apexcharts-legend-series {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px !important;
+}
+
+.apexcharts-legend-text {
+    font-family: 'Press Start 2P',
+        cursive !important;
+    font-weight: 400;
+    font-size: var(--font-16) !important;
+    color: var(--color-white) !important;
+    margin-left: 25px !important;
+}
+
+.apexcharts-legend-marker {
+    border-radius: 4px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.apexcharts-legends {
+    left: auto;
+    top: 24px;
+    right: 5px;
+}
+
+
+
+/* CHARTS CLASSES END */
+@media (max-width:992px) {
+    .ps-md-24 {
+        padding-left: 24px !important;
+    }
+
+}
+
+@media (max-width:576px) {
+    .apexcharts-legend-marker {
+        border-radius: 4px !important;
+        width: 35px !important;
+        height: 35px !important;
+    }
+}
+
+@media (min-width:1870px) {
+    .character-section {
+        background-size: cover !important;
+    }
+}

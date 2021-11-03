@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.ff-press {
+    font-family: 'Press Start 2P',
+        cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+:root {
+    /* =============================FONT-SIZE============================= */
+    --font-14: 14px;
+    --font-16: 16px;
+    --font-23: 23px;
+    --font-30: 30px;
+    --font-44: 44px;
+    /* ========================================COLOR======================================== */
+    --color-black: #000000;
+    --color-light-white: #B2B2B2;
+    --color-white: #ffffff;
+    --color-purple-heart: #781ECE;
+    --color-Mardi-Gras: #0E0D0E;
+    --color-Pacific-Blue: #009ACB;
+    --color-Medium-Spring-Green: #00E396;
+    --color-Radical-Red: #FF4560;
+    --color-Dark-Tangerine: #FFB218;
+    --color-Dark-grandient: #121212;
+    --color-D0DD37: #D0DD37;
+}
+
+@font-face {
+    font-family: pixelsRegular;
+    src: url(../font/pixels-regular.TTF);
+}
+
+.ff-pixel-regular {
+    font-family: pixelsRegular;
+}
+
+/* Media-queries-start */
+@media (max-width:1600px) {
+    :root {
+        --font-14: 13px;
+        --font-16: 15px;
+        --font-23: 20px;
+        --font-30: 26px;
+        --font-44: 35px;
+    }
+}
+
+@media (max-width:992px) {
+    :root {
+        --font-14: 13px;
+        --font-16: 15px;
+        --font-23: 19px;
+        --font-30: 24px;
+        --font-44: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    :root {
+        --font-14: 12px;
+        --font-16: 14px;
+        --font-23: 18px;
+        --font-30: 23px;
+        --font-44: 23px;
+    }
+
+    .fs-xs-15 {
+        font-size: 15px !important;
+    }
+}
+
+/* Media-queries-end */
+/*===================== font-size===================== */
+
+/*====================== FONT SIZE CLASS START====================== */
+.fs-16 {
+    font-size: var(--font-16);
+}
+
+.fs-14 {
+    font-size: var(--font-14);
+}
+
+.fs-23 {
+    font-size: var(--font-23);
+}
+
+.fs-30 {
+    font-size: var(--font-30);
+}
+
+.fs-44 {
+    font-size: var(--font-44);
+}
+
+/*====================== FONT SIZE CLASS END====================== */
+
+/*====================== FONT-weight SIZE CLASS START====================== */
+.fw-mormal {
+    font-weight: 400;
+}
+
+.fw-medium {
+    font-weight: 500;
+}
+
+.fw-semibold {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+/*====================== FONT-weight SIZE CLASS END====================== */
+
+
+/*====================== COLOR  CLASS START====================== */
+
+
+.color-light-white {
+    color: var(--color-light-white) !important;
+}
+
+.bg-color-black {
+    background-color: var(--color-black) !important;
+}
+
+.bg-color-white {
+    background-color: var(--color-white) !important;
+}
+
+.bg-color-purple-hear {
+    background-color: var(--color-purple-heart) !important;
+}
+
+.bg-color-Mardi-Gras {
+    background-color: var(--color-Mardi-Gras) !important;
+}
+
+.bg-color-Pacific-Blue {
+    background-color: var(--color-Pacific-Blue) !important;
+}
+
+.bg-color-Medium-Spring-Green {
+    background-color: var(--color-Medium-Spring-Green) !important;
+}
+
+.bg-color-Radical-Red {
+    background-color: var(--color-Radical-Red) !important;
+}
+
+.bg-color-Dark-Tangerine {
+    background-color: var(--color-Dark-Tangerine) !important;
+}
+
+.bg-color-Dark-grandient {
+    background-color: var(--color-Dark-grandient) !important;
+}
+
+
+.apexcharts-text.apexcharts-datalabel-value {
+    fill: white !important;
+}
+
+/*====================== COLOR  CLASS END====================== */
+
+/*====================== COMMON TEXT CLASS START====================== */
+
+.heading {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: var(--font-44);
+    color: var(--color-white);
+}
+
+.sub-heading {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: var(--font-23);
+    color: var(--color-white);
+}
+
+.para {
+    font-family: pixelsRegular;
+    font-weight: 400;
+    font-size: var(--font-30);
+    color: var(--color-white);
+    line-height: 33px;
+}
+
+.small-para {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: var(--font-16);
+    color: var(--color-white);
+}
+
+.extra-small-text {
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: var(--font-14);
+    color: var(--color-white);
+}
+
+
+
+
+/* horizontal timeline style  */
+.null-div {
+    width: 400px;
+}
+
+.middle-section-img-with-dot-line {
+    height: 305px;
+}
+
+/* .middle-section-img-with-dot-line .dotted-line {
+    position: absolute;
+    top: 120px;
+} */
+
+.middle-section-img-with-dot-line .dotted-line {
+    height: 170px;
+    width: 3px;
+}
+
+.left-content-timeline {
+    width: 400px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/* .mt-m-40 {
+    margin-top: -40px;
+}
+
+.mt-m-80 {
+    margin-top: -80px;
+}
+
+.mt-m-120 {
+    margin-top: -120px;
+}
+
+.mt-m-160 {
+    margin-top: -160px;
+} */
+
+@media (max-width:991.98px) {
+    .middle-section-img-with-dot-line {
+        height: 290px;
+    }
+
+}
+
+@media (max-width:575.98px) {
+    .left-content-timeline {
+        width: unset;
+    }
+
+}
+
+/* horizontal timeline style  */
+
+/*====================== COMMON TEXT CLASS END====================== */
+
+
+
+
+
+/*  VIDEO CSS */
+
+@media only screen and (min-width: 1024px) {
+    .container-video {
+        height: 550px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .container-video {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container-video {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container-video {
+        height: 250px;
+    }
+}
+
+.container-video {
+    width: 100%;
+
+    position: relative;
+}
+
+.class-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.video-center {
+    display: flex;
+    justify-content: center;
+}
+
+.bg_brick {
+    background-image: url("../images/gifbackground.png");
+}
+
+
+@media (min-width: 798px) {
+    .margin-top-minus-90 {
+        margin-top: -90px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .img-adjuct-md {
+        width: 100%;
+    }
+
+    .margin-top-minus-90 {
+        margin-top: -30px;
+    }
+}
+
+/* NAVBAR-CSS START */
+.navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+/* NAVBAR-CSS END */
