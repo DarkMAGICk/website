@@ -31,6 +31,22 @@ a {
     
 }
 
+.top-column-dmgk {
+
+  
+ 
+}
+
+/* @media only screen and (max-width: 1200px) {
+    .top-column-dmgk p {
+     font-size: medium;
+    }
+  } */
+
+.top-row-dmgk {
+ display: flex;
+ justify-content: center;
+}
 .bg-hero-portal {
     background-image: url(../images/4066.jpg);
     background-repeat: no-repeat;
